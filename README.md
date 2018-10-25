@@ -60,5 +60,6 @@ To also be hosted on heroku
 
 Did you find anything that you think should be fixed or added? kindly create an issue so that it can be resolved as soon as possible.
 
-Authors
+**Authors:**
+
 iykeevans, boscoseries, ennylee, iKnowJavaScript, Ochuko
