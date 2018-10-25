@@ -4,7 +4,7 @@
   "description": "****Swift Meals****",
   "main": "server.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\""
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
