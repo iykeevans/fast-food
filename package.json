@@ -2,9 +2,9 @@
   "name": "swift-meals",
   "version": "1.0.0",
   "description": "****Swift Meals****",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/iykeevans/fast-food/issues"
   },
-  "homepage": "https://github.com/iykeevans/fast-food#readme"
+  "homepage": "https://github.com/iykeevans/fast-food#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "pug": "^2.0.3"
+  }
 }
