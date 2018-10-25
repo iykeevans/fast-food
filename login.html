@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swift Meals</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./style.css">
+	<link href="httpps://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Swift</span>-Meals</h1>
+				</div>
+				<nav class="nav">
+					<ul>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="signup.html">Signup</a></li>
+						<li><a href="cart.html"><span class="highlight">Cart</span></a></li>
+					</ul>
+				</nav>
+				<div class="hamburger" onclick="(function () {document.querySelector('.nav').style.display = 'block'; })()">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</header>
+
+		<section class="showcase">
+			<div class="desc">
+				<h2>Hot & Spicy Fast Food</h2>
+				<p>We Deliver To Your Doorstep</p>
+				<button type="submit" class="order-btn">Order Now</button>
+			</div>
+			<div class="image"><img src="./images/noodles.png" alt="Noodles"></div>
+		</section>
+
+		<section class="prompt">
+			<div class="container">
+				<h3>Popular products</h3>
+				<p>Browse all popular fast food</p>
+			</div>
+		</section>
+
+		
+		<footer>
+			<p>&copy;2018 Fast-Food-Fast | Built by <span class="highlight">TechGuru Team</span></p>
+		</footer>
+	</div>
+
+</body>
+</html>
