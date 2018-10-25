@@ -1,4 +1,4 @@
-#Fast-Food-Fast App
+**Fast-Food-Fast App:**
 Fast-Food-Fast App is a food delivery app on a development process by a team of enthusiastic programming students. 
 Main basic functionalities this web Application will cover are as follows:
 - **User Authentication**
