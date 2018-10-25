@@ -44,15 +44,19 @@ GET | /meals | Fetches all meals
 GET | /meals/:id | Fetches a single meal
 
 **Test**
+
 RUN npm test
 
 **Live API**
+
 To be hosted on heroku
 
 **Documentation**
+
 To also be hosted on heroku
 
 **Discovered an issue?**
+
 Did you find anything that you think should be fixed or added? kindly create an issue so that it can be resolved as soon as possible.
 
 Authors
