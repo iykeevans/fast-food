@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Fast Food</title>
+</head>
+
+<body>
+    <section class="background"></section>
+    <nav class="heading"><a href="#">FAST-FOOD-FAST</a></nav>
+    <section class="user-authentication">
+        <div class="user_options-container">
+            <div class="user_options-text">
+                <div class="user_options-unregistered">
+                    <h2 class="user_unregistered-title">Don't have an account?</h2>
+                    <p class="user_unregistered-text">You are welcome to register a new customer account in our shop! <br> </p>
+                    <p class="user_unregistered-text">Remenber! You dont have to create a new account if you already have one. <br> </p>
+                    <button class="user_unregistered-signup" id="signup-button">Sign up</button>
+                </div>
+
+                <div class="user_options-registered">
+                    <h2 class="user_registered-title">Have an account?</h2>
+                    <p class="user_registered-text">If you already have an Account with us just Log In! <br><br><br><br></p>
+                    <button class="user_registered-login" id="login-button">Login</button>
+                </div>
+            </div>
+
+            <div class="user_options-forms" id="user_options-forms">
+                <div class="user_forms-login">
+                    <h2 class="forms_title">Login</h2>
+                    <form class="forms_form">
+                        <fieldset class="forms_fieldset">
+                            <div class="forms_field">
+                                <input type="email" placeholder="Email" class="forms_field-input" required autofocus />
+                            </div>
+                            <div class="forms_field">
+                                <input type="password" placeholder="Password" class="forms_field-input" required />
+                            </div>
+                        </fieldset>
+                        <div class="forms_buttons">
+                            <button type="button" class="forms_buttons-forgot" id="forget-button">Forgot password?</button>
+                            <button type="submit" class="forms_buttons-action">Login</button>
+                            <a class="forms_buttons-mb-button" id="signup-button-mb">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="user_forms-signup">
+                    <h2 class="forms_title">Sign Up</h2>
+                    <form class="forms_form">
+                        <fieldset class="forms_fieldset">
+                            <div class="forms_field">
+                                <input type="text" placeholder="Full Name" class="forms_field-input" required />
+                            </div>
+                            <div class="forms_field">
+                                <input type="email" placeholder="Email" class="forms_field-input" required />
+                            </div>
+                            <div class="forms_field">
+                                <input type="password" placeholder="Password" class="forms_field-input" required />
+                            </div>
+                        </fieldset>
+                        <div class="forms_buttons">
+                            <button type="submit" class="forms_buttons-action">Sign up</button>
+                            <a class="forms_buttons-mb-button" id="login-button-mb">Login</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="user_forms-forgot">
+                    <h2 class="forms_title forgot">Forgot Password</h2>
+                    <form class="forms_form">
+                        <fieldset class="forms_fieldset">
+                            <div class="forms_field">
+                                <input type="email" placeholder="Email" class="forms_field-input" required autofocus />
+                            </div>
+                        </fieldset>
+                        <div class="forms_buttons">
+                            <button type="submit" class="forms_buttons-action">Send reset link</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
