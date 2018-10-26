@@ -1,0 +1,42 @@
+{
+  "name": "fast-food-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iykeevans/fast-food.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iykeevans/fast-food/issues"
+  },
+  "homepage": "https://github.com/iykeevens/fast-food#readme",
+  "dependencies": {
+    "cookie-parser": "*",
+    "debug": "*",
+    "express": "*",
+    "http-errors": "*",
+    "pug": "*",
+    "morgan": "*",
+    "serve-favicon": "*",
+    "pg": "*",
+    "connect-flash": "*",
+    "express-messages": "*",
+    "express-validator": "*",
+    "express-session": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-http": "*",
+    "multer": "*"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
